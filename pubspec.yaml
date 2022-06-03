@@ -27,6 +27,7 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  http: ^0.13.4
   flutter:
     sdk: flutter
 
@@ -63,6 +64,7 @@ flutter:
   #   - images/a_dot_ham.jpeg
   assets:
     - assets/gbr.jpg
+    - assets/gbr1.png
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

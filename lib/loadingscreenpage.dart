@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 
-import 'login.dart';
+import 'loginpage.dart';
 
 class LoadingScreenPage extends StatefulWidget {
   const LoadingScreenPage({Key? key}) : super(key: key);
@@ -35,7 +35,7 @@ class _LoadingScreenPageState extends State<LoadingScreenPage> {
     return Scaffold(
       body: Container(
         child: Center(
-          child: Text('.oO0  RESTAURANT  0Oo.',
+          child: Text('. ..Database SD Jakarta.. .',
             textAlign: TextAlign.center,
             style: TextStyle(
                 fontSize: 25.0,
@@ -48,7 +48,7 @@ class _LoadingScreenPageState extends State<LoadingScreenPage> {
           gradient: LinearGradient(
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
-            colors: <Color>[Colors.green, Colors.blue],
+            colors: <Color>[Colors.white, Colors.blue],
           ),
         ),
       ),

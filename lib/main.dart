@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:project_mobile/home.dart';
+import 'package:project_mobile/homepage.dart';
+import 'package:project_mobile/loadingscreenpage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Sekolah di Indonesia',
+      title: 'Sekolah Dasar di Jakarta',
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: HomePage(),
+      home: LoadingScreenPage(),
     );
   }
 }

@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:project_mobile/home.dart';
+import 'package:project_mobile/homepage.dart';
 
 class Login extends StatefulWidget {
   const Login({Key? key}) : super(key: key);
@@ -19,7 +19,7 @@ class _LoginState extends State<Login> {
           fontSize: 25,
         ),),
       content: Container(
-        child: Text(" Selamat datang kembali, Semoga harimu menyenangkan, Jangan lupa makan ya...",
+        child: Text(" Selamat datang ...",
           style: TextStyle(
             fontSize: 15,
           ),),
@@ -40,7 +40,7 @@ class _LoginState extends State<Login> {
     return Scaffold(
       body: ListView(
         children: [
-          Image.asset('assets/images/logheader.jpg',width: 200, height: 200),
+          Image.asset('assets/gbr.jpg',width: 200, height: 200),
           Positioned(
             child: Container(
               height: 250,
@@ -65,7 +65,7 @@ class _LoginState extends State<Login> {
                       child: TextField(
                         decoration: InputDecoration(
                             suffixIcon: Icon(Icons.account_circle,
-                                color: Color.fromARGB(255, 0, 151, 167)),
+                                color: Color.fromARGB(255, 0, 147, 254)),
                             labelText: 'Username'
                         ),
                         onChanged: (String value) {
